@@ -1,0 +1,38 @@
+.menu-popup-content-light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+  min-width: 576px;
+  min-height: 576px;
+  background-size: cover;
+}
+.menu-popup-content-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+  min-width: 576px;
+  min-height: 576px;
+  background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-icon {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+}

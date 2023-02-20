@@ -1,0 +1,9 @@
+.trendingIcon {
+  margin-left: 30px;
+  background-color: #d7dfe9;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  color: red;
+  padding: 7px;
+}

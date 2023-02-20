@@ -1,0 +1,23 @@
+.trendingIcon {
+  margin-left: 30px;
+  background-color: #d7dfe9;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  color: red;
+  padding: 7px;
+}
+
+.no-saved-image {
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  max-width: 600px;
+}
+
+.nosaved-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

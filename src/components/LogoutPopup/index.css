@@ -1,0 +1,79 @@
+.popup-content-light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+}
+.popup-content-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.popup-heading {
+  color: #3b82f6;
+  font-size: 14px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cancel-button {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #3b82f6;
+  color: #3b82f6;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.confirm-button {
+  background-color: #3b82f6;
+  border-style: solid;
+  border-color: #3b82f6;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .logout-button {
+    display: none;
+  }
+
+  .logout-icon {
+    display: inline;
+    background-color: transparent;
+    border-style: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logout-button {
+    display: inline;
+  }
+
+  .logout-icon {
+    display: none;
+    background-color: transparent;
+    border-style: none;
+  }
+}

@@ -1,0 +1,44 @@
+.icn {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.usericon {
+  height: 30px;
+  width: 30px;
+  color: #64748b;
+  margin-right: 10px;
+}
+
+.logout-usericon {
+  height: 30px;
+  width: 30px;
+  color: #64748b;
+  margin-right: 10px;
+  display: none;
+}
+.webSiteLogo {
+  height: 35px;
+  width: 175px;
+}
+
+@media screen and (max-width: 767px) {
+  .logout-usericon {
+    display: inline;
+  }
+}
+
+.menu-usericon {
+  height: 30px;
+  width: 30px;
+  color: #64748b;
+  margin-right: 10px;
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-usericon {
+    display: inline;
+  }
+}
